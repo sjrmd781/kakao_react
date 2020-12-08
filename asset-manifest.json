@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kakao_react/static/css/main.932c9e5e.chunk.css",
+    "main.js": "/kakao_react/static/js/main.413a4cb9.chunk.js",
+    "main.js.map": "/kakao_react/static/js/main.413a4cb9.chunk.js.map",
+    "runtime-main.js": "/kakao_react/static/js/runtime-main.e72ebbcd.js",
+    "runtime-main.js.map": "/kakao_react/static/js/runtime-main.e72ebbcd.js.map",
+    "static/js/2.49afc8e6.chunk.js": "/kakao_react/static/js/2.49afc8e6.chunk.js",
+    "static/js/2.49afc8e6.chunk.js.map": "/kakao_react/static/js/2.49afc8e6.chunk.js.map",
+    "index.html": "/kakao_react/index.html",
+    "static/css/main.932c9e5e.chunk.css.map": "/kakao_react/static/css/main.932c9e5e.chunk.css.map",
+    "static/js/2.49afc8e6.chunk.js.LICENSE.txt": "/kakao_react/static/js/2.49afc8e6.chunk.js.LICENSE.txt",
+    "static/media/Profile.scss": "/kakao_react/static/media/bg_default.82687b4e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e72ebbcd.js",
+    "static/js/2.49afc8e6.chunk.js",
+    "static/css/main.932c9e5e.chunk.css",
+    "static/js/main.413a4cb9.chunk.js"
+  ]
+}
