@@ -1,0 +1,45 @@
+
+/* header */
+header{ border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+
+header>div.header_inner{width: 100%; display: flex; font-size: 16px; padding: 0 10px; box-sizing: border-box;}
+div.header_inner>a{flex: 1; font-size: 21.5px;}
+div.header_inner>h2{flex: 1; text-align: center;}
+div.header_inner>ul{flex: 1; display: flex; flex-direction: row; justify-content: flex-end;}
+div.header_inner>ul>li{margin-left: 5px;}
+
+
+/* div.chat */
+div.chat{height: 100vh; background-color: #a1c0d6;; padding: 15px 5px 0; box-sizing: border-box; position: relative; top: 65px; animation: ani2 0.5s linear normal;
+    >p{font-size: 12px; opacity: 0.5; text-align: center;}
+}
+
+div.message{display: flex; flex-direction: column;
+    div{flex: 1; display: flex; flex-direction: column; position: relative;
+        >h3{font-size: 12px;}
+        >span{font-size: 10px; opacity: 0.5; position: absolute; bottom: -5px;}
+    }
+}
+
+div.mychat{margin-bottom: 10px; background-color: none;
+    >p{max-width: 222px; align-self: flex-end; border-radius: 5px; font-size: 16px; background-color: #ffe934; margin: 5px; padding: 8px 5px;}
+    >span{left: 100px;}
+}
+
+div.friend{padding-left: 40px;
+    >h3{padding-left: 8px;}
+    >p{align-self: flex-start; max-width: 280px; border-radius: 5px; font-size: 16px; background-color: #fff; margin: 5px; padding: 8px 5px;}
+    >img{border-radius: 50%; position: absolute; top: 0; left: 0;}
+    >span{right: 0;}
+}
+
+div.bottom{height: 45px; position: fixed; bottom: 0; background-color: #eee; width: 100%; display: flex; font-size: 21.5px; padding: 0 10px; box-sizing: border-box;
+    >i{flex: 1; color: #b4b4b4; align-self: center;}
+}
+
+div.type{height: 40px; align-self: center; flex: 5; position: relative;
+    >input{width: 100%; height: 100%;}
+    >i{position: absolute; top: 10px; right: 5px; color: #b4b4b4;}
+}
+
+div.bottom>p{width: 34px; height: 37px; line-height: 37px; text-align: center; align-self: center; background-color: #ffe934; margin-left: 10px; color: #523737;}

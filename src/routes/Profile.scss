@@ -1,0 +1,45 @@
+
+/* header */
+header{z-index: 1; position: absolute;
+    .header_inner{font-size: 21px; padding: 10px; display: flex; width: 100%; box-sizing: border-box;
+        a{color: #fff; flex: 1;}
+        span{flex: 1;}
+        i{flex: 1; text-align: right;}
+    }        
+}
+
+
+
+/* div.profile */
+
+div.profile{position: absolute; bottom: -200px; text-align: center; width: 100%; display: flex; flex-direction: column; align-items: center;
+    &_background{width: 100%; position: absolute; top: 0; width: 100%; height: 528px; background: url(images/bg_default.png) no-repeat 0 0; background-size: cover; animation: ani 0.5s linear normal;}
+    input{padding: 5px; border: 1px solid lightgray; box-sizing: border-box; margin: 10px 0 20px; height: 30px;}
+}
+
+.profile_header>li{font-size: 16px;
+    img{border-radius: 50%;}
+    &:nth-of-type(1){margin-bottom: 10px;}
+}
+
+
+ul.profile_content{display: flex; width: 172px; height: 74px;
+    li{flex: 1; font-size: 12px;}
+}
+ul.mychat{display: flex; flex-direction: column; align-items: center;
+    li{
+        &:nth-of-type(1){background: #f2f2f2; padding: 15px; border-radius: 50%; color: #523737; width: 51px; height: 47px; box-sizing: border-box; margin-bottom: 15px;
+            i{font-size: 21px;}
+        }
+        &:nth-of-type(2){font-size: 12px;}
+    }
+}
+
+ul.edit{display: flex; flex-direction: column; align-items: center;
+    li{
+        &:nth-of-type(1){background: #f2f2f2; padding: 15px; border-radius: 50%; color: #523737; width: 48px; height: 47px; box-sizing: border-box; margin-bottom: 15px;
+            i{font-size: 21px;}
+        }
+        &:nth-of-type(2){font-size: 12px;}
+    }
+}
